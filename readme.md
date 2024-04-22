@@ -24,7 +24,7 @@ Para começar a utilizar a aplicação, é necessário configurar a conexão com
 Execute o seguinte comando SQL no seu banco de dados para criar a tabela users:
 
 
- bash ``` 
+  ``` sql 
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -37,7 +37,7 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
   ```
-  ```
+ 
 
 Depois de criar a tabela, você pode utilizar a aplicação para gerenciar os usuários.
 
